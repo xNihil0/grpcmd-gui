@@ -4,7 +4,7 @@ go 1.23.0
 
 require (
 	github.com/fsnotify/fsnotify v1.8.0
-	github.com/fullstorydev/grpcurl v1.9.2
+	github.com/fullstorydev/grpcurl v1.9.3
 	github.com/golang/protobuf v1.5.4
 	github.com/jhump/protoreflect v1.17.0
 	github.com/wailsapp/wails/v3 v3.0.0-alpha.8.3
@@ -50,15 +50,15 @@ require (
 	github.com/wailsapp/go-webview2 v1.0.18 // indirect
 	github.com/wailsapp/mimetype v1.4.1 // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
-	golang.org/x/crypto v0.28.0 // indirect
+	golang.org/x/crypto v0.31.0 // indirect
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 // indirect
 	golang.org/x/mod v0.19.0 // indirect
-	golang.org/x/net v0.30.0 // indirect
-	golang.org/x/sync v0.9.0 // indirect
+	golang.org/x/net v0.33.0 // indirect
+	golang.org/x/sync v0.10.0 // indirect
 	golang.org/x/sys v0.28.0 // indirect
-	golang.org/x/text v0.19.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 	golang.org/x/tools v0.23.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241015192408-796eee8c2d53 // indirect
-	google.golang.org/protobuf v1.35.1 // indirect
+	google.golang.org/protobuf v1.36.5 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )

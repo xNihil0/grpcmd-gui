@@ -85,6 +85,7 @@ func (ctx *GrpcmdContext) Connect(address string) error {
 
 	if ctx._dscSource == nil {
 		refClient := grpcreflect.NewClientAuto(ctx._ctx, ctx._cc)
+		refClient.AllowMissingFileDescriptors()
 		ctx.deferCall(refClient.Reset)
 		refSource := grpcurl.DescriptorSourceFromServer(ctx._ctx, refClient)
 		ctx._dscSource = refSource
